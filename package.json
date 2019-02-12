@@ -7,7 +7,7 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/papb/papb-test-frontend-lib/issues"
   },
-  "homepage": "https://github.com/papb/papb-test-frontend-lib#readme"
+  "homepage": "https://github.com/papb/papb-test-frontend-lib#readme",
+  "devDependencies": {
+    "cypress": "3.1.5"
+  }
 }

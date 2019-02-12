@@ -1,1 +1,7 @@
 node_modules
+*.log
+cypress/fixtures
+cypress/plugins
+cypress/screenshots
+cypress/support
+cypress/videos
