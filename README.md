@@ -8,6 +8,7 @@ This is a <s>useless</s> library for the front-end that I develop to experiment 
 * To generate and display good documentation in GitHub Pages and/or with [now](https://github.com/zeit/now-cli)
 * To use [greenkeeper](https://github.com/greenkeeperio/greenkeeper) and perhaps other good GitHub bots
 * To enforce proper linting (using [ESLint](https://github.com/eslint/eslint))
+* Use TypeScript or at least the so-called "TypeScript typings"
 
 This is a work in progress.
 
