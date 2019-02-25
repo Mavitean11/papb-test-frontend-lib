@@ -14,7 +14,9 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "cypress run",
+    "cypress": "cypress run",
+    "cypress-dev": "cypress open",
+    "test": "npm run build && npm run cypress",
     "build": "rollup -c"
   },
   "repository": {
