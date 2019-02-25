@@ -5,3 +5,5 @@ cypress/plugins
 cypress/screenshots
 cypress/support
 cypress/videos
+dist
+.rpt2_cache
