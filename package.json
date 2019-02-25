@@ -30,9 +30,20 @@
   },
   "homepage": "https://github.com/papb/papb-test-frontend-lib#readme",
   "devDependencies": {
+    "@commitlint/cli": "7.5.2",
+    "@commitlint/config-conventional": "7.5.0",
     "cypress": "3.1.5",
+    "husky": "1.3.1",
     "rollup": "0.62.0",
     "rollup-plugin-typescript2": "0.19.2",
     "typescript": "3.3.3333"
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
