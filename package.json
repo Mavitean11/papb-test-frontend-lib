@@ -41,7 +41,7 @@
   "commitlint": {
     "extends": ["@commitlint/config-conventional"]
   },
-  "husky": {
+  "//husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
