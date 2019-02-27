@@ -10,4 +10,11 @@ describe('Build', function() {
             expect(window.papbTestFrontendLib.getTheAnswer()).to.equal(42);
         });
     });
+
+    it('Divides two numbers', function() {
+        cy.visit('cypress/test-entrypoint.html');
+        cy.window().then(window => {
+            expect(window.papbTestFrontendLib.divide(16, 2)).to.equal(8);
+        });
+    });
 });
