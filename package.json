@@ -17,7 +17,8 @@
     "cypress": "cypress run",
     "cypress-dev": "cypress open",
     "test": "npm run build && npm run cypress",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "prepublishOnly": "npm test"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   },
   "author": "Pedro Augusto de Paula Barbosa",
   "license": "MIT",
+  "private": true,
   "bugs": {
     "url": "https://github.com/papb/papb-test-frontend-lib/issues"
   },
