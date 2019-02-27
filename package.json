@@ -18,7 +18,8 @@
     "cypress-dev": "cypress open",
     "test": "npm run build && npm run cypress",
     "build": "rollup -c",
-    "prepublishOnly": "npm test"
+    "prepublishOnly": "npm test",
+    "docs": "typedoc --out typedoc_output"
   },
   "repository": {
     "type": "git",
@@ -38,10 +39,13 @@
     "husky": "1.3.1",
     "rollup": "0.62.0",
     "rollup-plugin-typescript2": "0.19.2",
+    "typedoc": "0.14.2",
     "typescript": "3.3.3333"
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "//husky": {
     "hooks": {
