@@ -7,4 +7,6 @@ cypress/support
 cypress/videos
 dist
 .rpt2_cache
-typedoc_output
+docs_output
+docs_output_tutorials
+docs_output_api
