@@ -1,4 +1,26 @@
-# papb-test-frontend-lib [![Build Status](https://travis-ci.com/papb/papb-test-frontend-lib.svg?branch=master)](https://travis-ci.com/papb/papb-test-frontend-lib)
+<div align="center">
+    <a href="https://papb.github.io/papb-test-frontend-lib/">
+        <img src="https://papb.github.io/papb-test-frontend-lib/assets/logo.png" width="200" height="200"/>
+    </a>
+    <br><br>
+    <div>
+        <img src="https://badgen.net/npm/v/papb-test-frontend-lib" />
+        <img src="https://badgen.net/travis/papb/papb-test-frontend-lib" />
+        <img src="https://badgen.net/npm/dt/papb-test-frontend-lib" />
+        <img src="https://badgen.net/npm/license/papb-test-frontend-lib" />
+        <img src="https://badgen.net/bundlephobia/minzip/papb-test-frontend-lib" />
+    </div>
+    <div>
+        <img src="https://badgen.net/david/dep/papb/papb-test-frontend-lib" />
+        <img src="https://badgen.net/david/dev/papb/papb-test-frontend-lib" />
+        <img src="https://badgen.net/github/open-issues/papb/papb-test-frontend-lib" />
+        <img src="https://badgen.net/github/closed-issues/papb/papb-test-frontend-lib" />
+        <img src="https://badgen.net/badge/contributions/welcome/green" />
+        <img src="https://data.jsdelivr.com/v1/package/npm/papb-test-frontend-lib/badge?style=rounded" />
+    </div>
+</div>
+
+# papb-test-frontend-lib
 
 This is a <s>useless</s> library for the front-end that I develop to experiment with the various Javascript tools available around. The goals:
 
